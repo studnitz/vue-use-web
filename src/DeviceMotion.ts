@@ -26,7 +26,7 @@ function initState() {
 }
 
 interface DeviceMotionOptions {
-  throttleMs: 10
+  throttleMs: 10;
 }
 
 export function useDeviceMotion(options: DeviceMotionOptions = { throttleMs: 10 }) {
